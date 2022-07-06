@@ -210,6 +210,8 @@ namespace glTF_BinExporter
 
             material.Extensions.Add(glTFExtensions.KHR_materials_specular.Tag, specular);
 
+            material.DoubleSided = options.UseDoubleSidedMaterials;
+
             return dummy.Materials.AddAndReturnIndex(material);
         }
 

@@ -111,6 +111,15 @@ namespace glTF_BinExporter
             set => Instance.Settings.SetBool(exportMaterialsKey, value);
         }
 
+        private const string useDoubleSidedMaterialsKey = "DoubleSidedMaterials";
+        public const bool UseDoubleSideMaterialsDefault = false;
+
+        public static bool UseDoubleSidedMaterials
+        {
+            get => Instance.Settings.GetBool(useDoubleSidedMaterialsKey, UseDoubleSideMaterialsDefault);
+            set => Instance.Settings.SetBool(useDoubleSidedMaterialsKey, value);
+        }
+
         private const string useDisplayColorForUnsetMaterialsKey = "UseDisplayColorForUnsetMaterials";
         public const bool UseDisplayColorForUnsetMaterialsDefault = true;
 

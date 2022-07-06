@@ -19,7 +19,7 @@ namespace glTF_BinExporter
         public RhinoObject Object = null;
     }
 
-    class RhinoDocGltfConverter
+    public class RhinoDocGltfConverter
     {
         public RhinoDocGltfConverter(glTFExportOptions options, bool binary, RhinoDoc doc, IEnumerable<RhinoObject> objects, LinearWorkflow workflow)
         {
