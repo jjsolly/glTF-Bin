@@ -11,7 +11,7 @@ namespace glTF_BinExporter
         public bool MapRhinoZToGltfY = glTFBinExporterPlugin.MapRhinoZToGltfYDefault;
         public bool ExportMaterials = glTFBinExporterPlugin.ExportMaterialsDefault;
         public bool UseDisplayColorForUnsetMaterials = glTFBinExporterPlugin.UseDisplayColorForUnsetMaterialsDefault;
-        public bool UseDoubleSidedMaterials = glTFBinExporterPlugin.UseDoubleSidedMaterials;
+        public bool UseDoubleSidedMaterials = glTFBinExporterPlugin.UseDoubleSideMaterialsDefault;
 
         public SubDMode SubDExportMode = glTFBinExporterPlugin.SubDModeDefault;
         public int SubDLevel = glTFBinExporterPlugin.SubDLevelDefault;
