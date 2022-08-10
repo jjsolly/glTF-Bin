@@ -27,6 +27,6 @@ namespace glTF_BinExporter
         public int DracoQuantizationBitsNormal = glTFBinExporterPlugin.DracoQuantizationBitsNormalDefault;
         public int DracoQuantizationBitsTexture = glTFBinExporterPlugin.DracoQuantizationBitsTextureDefault;
 
-        public bool ExportLayers = glTFBinExporterPlugin.ExportLayers;
+        public bool ExportLayers = glTFBinExporterPlugin.ExportLayersDialogDefault;
     }
 }
